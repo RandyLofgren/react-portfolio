@@ -3,6 +3,7 @@ import "./style.css";
 import LinkedIn from "./FooterAssets/LinkedIn.png";
 import Resume from "./FooterAssets/resume.png";
 import GitHub from "./FooterAssets/githublogo.png";
+import ResumeRandy from "./FooterAssets/Resume-Randy.pdf";
 
 
 function Footer() {
@@ -34,7 +35,7 @@ function Footer() {
                             <br />
 
                             <p>
-                                <a href="./Assets/Resume-Randy Lofgren-11-20-20.pdf"><img
+                                <a href={ResumeRandy}><img
                                     className="logo d-flex justify-content-center img-fluid thumbnail enlarge"
                                     id="resume-image"
                                     src={Resume} alt={"Resume Logo"} />
