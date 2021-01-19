@@ -1,0 +1,128 @@
+.imageBorder:hover{
+    border: 2px solid black; 
+}
+
+.imageone{
+    width: 60%;
+    float: left;
+    padding: 5px;
+}
+
+
+.container-sm{
+    background-color: #f5eaea;
+  margin-top: 80px;
+  padding-left: 45px;
+  border: solid 2px black;
+  
+  
+   
+}
+
+.paddingBottom {
+    margin-bottom: 20px;
+}
+
+.row{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+p{
+    color: black;
+}
+
+
+
+.imagetwo{
+    width: 60%;
+    float: right;
+    padding: 5px;
+}
+
+
+.navcolor{
+    background-color: #7fcd91 ;
+    font-weight: bold;
+    color: black;
+}
+
+.footer-content{
+    display: flex;
+    
+    height: 100%;
+}
+
+.footer{
+    background: #5b5656 ;
+    color: azure;
+    height: 250px;
+    position: relative;
+}
+.footer .footer-bottom{
+    background:#4d4646;
+    color:#7fcd91;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    padding-top: 20px;
+    font-size: small;
+    /* border-top: 1px solid teal; */
+
+}
+.footer-section{
+    flex: 1;
+    padding: 25px;
+    /* border: 1px solid white; */
+}
+
+.logo{
+    align-content: center;
+    margin: auto;
+    max-height: 90px;
+}
+
+
+
+.sponsors{
+    font-size: 35px;
+    /* color:#7fcd91;; */
+    font-weight: bold;
+}
+
+.btncolor{
+    background-color: #4d4646 ;
+    color: #7fcd91;
+}
+
+.project-title{
+    font-weight: bold;
+    text-align: center;
+   
+}
+
+
+a{
+    
+    color: #4d4646;
+
+}
+
+#resume-image{
+    padding-bottom: 20px;
+    size: 200px;
+    
+}
+
+.enlarge:hover{
+  transform: scale(1.5);
+ 
+  
+}
