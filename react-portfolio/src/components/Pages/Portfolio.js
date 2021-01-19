@@ -6,13 +6,15 @@ import DayPlanner from "./PortfolioApps/DayPlanner";
 
 function Portfolio() {
   return (
+    <div>
+
+                    <h1 className="text-center">Portfolio</h1>
     <div className="container-sm paddingBottom">
       
 
         <div className="row">
             <div className="col-md-12">
                 <div className="page-header">
-                    <h1>Portfolio</h1>
                     <div className="my-4"> </div>
                 </div>
                 <div className="row">
@@ -20,13 +22,14 @@ function Portfolio() {
                    <Amazing />
                 </div>
                 <div className="row">
-                   <Trail />
                    <DayPlanner />
+                   <Trail />
                 </div>
               
 
             </div>
         </div>
+    </div>
     </div>
   );
 }

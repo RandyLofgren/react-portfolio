@@ -1,5 +1,5 @@
 import React from "react";
-import PlannerImg from "./PortfolioAssets/amazing-pti.png";
+import PlannerImg from "./PortfolioAssets/day-planner.png";
 
 function DayPlanner() {
     return (

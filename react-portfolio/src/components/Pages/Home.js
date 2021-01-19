@@ -9,7 +9,7 @@ function Home() {
         <div className="row">
             <div className="col-md-12">
                 <div className="page-header">
-                    <h1>Randy Lofgren</h1>
+                    <h1 className="text-center">Randy Lofgren</h1>
                     <div className="my-4"> </div>
                 </div>
 
