@@ -3,6 +3,7 @@ import Burgerville from "./PortfolioApps/Burgerville";
 import Amazing from "./PortfolioApps/AmazingPTI";
 import Trail from "./PortfolioApps/Trail";
 import DayPlanner from "./PortfolioApps/DayPlanner";
+import DevConnect from "./PortfolioApps/DevConnect"
 
 function Portfolio() {
   return (
@@ -18,11 +19,11 @@ function Portfolio() {
                     <div className="my-4"> </div>
                 </div>
                 <div className="row">
-                   <Burgerville />
+                   <DevConnect />
                    <Amazing />
                 </div>
                 <div className="row">
-                   <DayPlanner />
+                   <Burgerville />
                    <Trail />
                 </div>
               

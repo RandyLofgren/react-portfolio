@@ -20,35 +20,30 @@ function Home() {
                     <div className="col-md-6">
                         <div></div>
                         <img className="image imageone" src={RandyFancy} alt="Randy Picture" />
-                        <p> <strong>Randy Lofgren</strong> is a Full-Stack Developer from the UNC-Charlotte Coding
-                            Bootcamp Course.
-                            He is currently searching for a  Junior Dev Position on a development team
-                            where he can put his push himself and imrpove his coding abilities.
+                        <>  As a Junior Developer I am interested in refining and improving my skills through experience. My education includes a BA in Economics from Denison University as well as a Full Stack Web Development Coding Certificate from UNC Charlotte Coding Bootcamp. I love problem solving and finding solutions to tricky problems as well as improving by analyzing an outcome and developing a strategy to exceed my previous result. I thrive in a team environment, I was an All-American Tennis player in college, and have gone on to be a Top 10 Platform Tennis player, a game that involves an immense amount of strategy and discipline while working with a partner. With my skill set, I would be a great addition to any team as a Junior Developer.
                             
 
                             
-                        </p>
-                        He has experience using HTML, CSS, JS, Jquery, React, APIs, and is very interested in backend development.
+                        </>
                         
-                        <p>
-
-                        </p>
+                        
                     </div>
                     <div className="col-md-6 col-border">
                         <div></div>
                         <img className="image imagetwo" src={RandyPlat} alt="Platform Picture" />
-                        <p>
-                            He is orginally from
-                            Cincinnati, OH and now lives in Charlotte, NC with his wife Alyce, daughter Julia, two cats,
-                            Monty and Katniss, and two dogs, Luna and Pheobe. His hobbies include playing Platform Tennis, Hiking, and
+                        <>
+                        I have experience using HTML, CSS, JS, Jquery, React, APIs, and am very interested in backend development.
+                            I am orginally from
+                            Cincinnati, OH and now live in Charlotte, NC with my wife Alyce, daughter Julia, two cats,
+                            Monty and Katniss, and two dogs, Luna and Pheobe. My hobbies include playing Platform Tennis, Hiking, and
                             Grilling!
                           
-                        </p>
-                        <p>
-                            He is currently the Chair of the APTA Men's Players Committee and Chair of the APTA Super
+                        </>
+                        <>
+                        I am currently the Chair of the APTA Men's Players Committee and Chair of the APTA National
                             Tournament Committee. These positions involve an enourmous amount of communication, organization, leadership, and  customer/member feedback interactions.
                             
-                        </p>
+                        </>
                     </div>
                 </div>
             </div>
