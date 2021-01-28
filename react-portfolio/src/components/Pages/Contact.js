@@ -1,7 +1,8 @@
 
 import React from "react";
+import "./style.css";
 
- class Contact extends React.Component {
+class Contact extends React.Component {
   constructor(props) {
     super(props);
     this.submitForm = this.submitForm.bind(this);
@@ -13,21 +14,60 @@ import React from "react";
   render() {
     const { status } = this.state;
     return (
-      <form className="text-center"
+
+      <div>
+      <div className="container-sm contain">
+          <div className="row">
+              <div className="col-md-12">
+                  <div className="page-header">
+                      <h1 className="text-center">Contact</h1>
+                      <div className="my-4"> </div>
+                  </div>
+  
+              </div>
+
+
+
+
+
+      <form className=""
         onSubmit={this.submitForm}
         action="https://formspree.io/f/meqpnaoy"
         method="POST"
-      >
+        >
+        <div className="row">
         
-        <label>Email:</label>
+
+        <label>Email:  </label>
+
         <input type="email" name="email" />
-        <label>Phone Number:</label>
+        
+       
+
+        </div>
+        <div className="row">
+
+        <label>Phone Number: </label>
         <input type="text" name="phoneNumber" />
-        <label>Message:</label>
+        </div>
+        <div className="row">
+
+        <label>Message: </label>
         <input type="text" name="message" />
+        </div>
         {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
         {status === "ERROR" && <p>Ooops! There was an error.</p>}
       </form>
+    
+          </div>
+    
+          </div>
+ 
+          </div>
+
+
+       
+
     );
   }
 

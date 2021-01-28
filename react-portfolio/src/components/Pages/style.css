@@ -1,0 +1,19 @@
+label {
+    width:180px;
+    clear:left;
+    text-align:center;
+    padding-right:10px;
+}
+input, label {
+    float:left;
+   
+    
+}
+input {
+    /* width: 500px; */
+    border: 2px solid black
+}
+
+
+
+

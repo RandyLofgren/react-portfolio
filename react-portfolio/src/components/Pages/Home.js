@@ -2,6 +2,7 @@ import React from "react";
 import RandyFancy from "./PagesAssets/RandyFancy.jpg";
 import RandyPlat from "./PagesAssets/Platform.jpg"
 
+
 function Home() {
   return (
     <div>
